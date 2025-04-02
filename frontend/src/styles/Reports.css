@@ -1,0 +1,74 @@
+.reports-container {
+    max-width: 960px;
+    margin: 80px auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .reports-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #5fc08b;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    background-color: #84b59a;
+  }
+  
+  .progress-container {
+    margin: 1rem 0;
+  }
+
+  .progress-bar {
+    background-color: #ddd;
+    border-radius: 8px;
+    height: 24px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .progress-fill {
+    background-color: #5fc08b;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .details-accordion {
+    margin-top: 2rem;
+  }
+
+  .details-accordion .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+  }
+
+  .accordion-summary {
+    background-color: #f7f7f7;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .accordion-details {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+  }
