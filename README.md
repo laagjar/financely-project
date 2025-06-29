@@ -23,6 +23,6 @@ Technology Stack
 
 Front-end:	React • Vite • JavaScript 
 Back-end	Spring Boot • Java 21 • Maven
-Database	MySQL 16 • JPA / Hibernate
+Database	MySQL • JPA / Hibernate
 DevOps	Docker 
 
